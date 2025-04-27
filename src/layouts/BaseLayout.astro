@@ -2,7 +2,7 @@
 import "@fontsource-variable/gabarito";
 import themeConfig from "@util/themeConfig";
 import "../styles/global.css";
-import Posthog from "@components/analytics/Posthog.astro";
+// import Posthog from "@components/analytics/Posthog.astro";
 import { ClientRouter } from "astro:transitions";
 import { getOGImage } from "@util/getOGImage";
 
@@ -49,6 +49,6 @@ const calculatedTitle = title || siteTitle;
   </head>
   <body class="bg-white dark:bg-gray-900">
     <slot />
-    <Posthog />
+    <!-- <Posthog /> -->
   </body>
 </html>
