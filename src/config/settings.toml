@@ -1,26 +1,26 @@
 # available directory themes:
 # spearmint, peppermint, hemingway, brookmint
-theme = 'brookmint'
+theme = 'peppermint'
 
 [general]
-title = "Meditation Apps"
+title = "Proof of Worth"
 logo = ""
-iconLogo = "tabler:coffee"
+iconLogo = "tabler:mood-bitcoin"
 
 [general.seo]
-name = "Cafe Directory"
-description = "Find the best nuxt starter kits."
-url = "https://nuxtstarters.com"
+name = "Proof of Worth"
+description = "Products these days are often of low quality. We call them Fiat Products. This site lists products that are outstanding and give us a glimpse of what every product would be like in an Bitcoin Standard."
+url = "https://proof-of-work-netlify.app"
 
 [directoryData.source]
 name = "json"    # default, mock, sheets, json
 links = "normal"
 
 [directoryData.tagPages]
-title = "{0} Apps"
+title = "{0} products"
 
 [directoryData.search]
-placeholder = "Search among {0} listings of this directory :)"
+placeholder = "Search among {0} products of this directory :)"
 
 [[directoryData.tags]]
 key = "breathing"
@@ -59,9 +59,9 @@ description = "Timers can be used to track how much you meditate."
 
 [header.banner]
 show = true
-text = "Follow mark_bruderer on twitter."
-link = "https://x.com/intent/follow?screen_name=mark_bruderer"
-brandText = "AI Agent Libraries"
+text = "Feedback here"
+link = "https://x.com/feinripp"
+brandText = "Proof of Worth is just getting started"
 
 [header.navbar]
 colorModeSelector = true
@@ -76,8 +76,8 @@ href = "https://us.posthog.com/shared/vHlGCcSqPjGH4r_QijaXSETtmN9J-g"
 target = "_blank"
 
 [header.actionButton]
-text = "Submit an app"
-href = "https://tally.so"
+text = "Submit a product (coming soon)"
+href = "https://proof-of-work-netlify.app"
 
 [footer]
 description = "Best directory for my niche."

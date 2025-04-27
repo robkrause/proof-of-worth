@@ -3,7 +3,7 @@ import { Icon } from "astro-icon/components";
 import { getCollection } from "astro:content";
 import formatString from "../../util/formatString";
 import UiTagGrid from "../ui/tags/Grid.vue";
-import UiTagSelect from "../ui/tags/Select.vue";
+// import UiTagSelect from "../ui/tags/Select.vue";
 import config from "@util/themeConfig";
 
 const searchPlaceholder = await getSearchPlaceholder();
@@ -59,13 +59,13 @@ async function getSearchPlaceholder() {
       if (sidebar) {
         return <></>
       }
-      if (config.directoryUI.search.tags.display === "select") {
-        return (
-          <UiTagSelect client:load>
-            <Icon name="tabler:x" />
-          </UiTagSelect>
-        );
-      }
+      // if (config.directoryUI.search.tags.display === "select") {
+      //   return (
+      //     <UiTagSelect client:load>
+      //       <Icon name="tabler:x" />
+      //     </UiTagSelect>
+      //   );
+      // }
       if (config.directoryUI.search.tags.display === "show-all") {
         return <UiTagGrid client:load />;
       }
