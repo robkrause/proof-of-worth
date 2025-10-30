@@ -4,6 +4,7 @@ import AppProse from "../components/app/Prose.astro";
 const { frontmatter, slug } = Astro.props;
 import themeConfig from "@util/themeConfig";
 import { Icon } from "astro-icon/components";
+import { Image } from "astro:assets";
 import AppShell from "@components/app/AppShell.astro";
 import config from "@util/themeConfig";
 import SidebarShell from "@components/app/SidebarShell.astro";
@@ -13,7 +14,9 @@ const siteTitle = themeConfig.general.title;
 const title = frontmatter?.title || siteTitle;
 const link = frontmatter?.link;
 const description = frontmatter?.description;
-const linkText = link?.replace(/^https?:\/\//, "");
+const image = frontmatter.image
+// const linkText = link?.replace(/^https?:\/\//, "");
+const linkText = "Buy on Amazon"
 const pageHeader = themeConfig.listings.pageHeader;
 const sidebar = config.layout.sidebar;
 ---
@@ -42,22 +45,26 @@ const sidebar = config.layout.sidebar;
         <div class="max-w-2xl w-full mx-auto py-20">
           {pageHeader == "title" && (
             <div class="mb-10">
-              <div class="flex justify-between items-center">
-                <h1 class="font-bold text-4xl text-gray-900 dark:text-gray-50">
+                <h1 class="font-bold text-4xl text-gray-900 dark:text-gray-50 mb-4">
                   {title}
                 </h1>
                 {link && (
                   <a
-                    class="inline-flex items-center gap-1 font-medium text-gray-800 dark:text-gray-100"
+                    class="inline-flex text-white bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
                     href={link}
                   >
                     {linkText}
                     <Icon name="tabler:arrow-up-right" />
                   </a>
                 )}
-              </div>
-              <p class="text-gray-400 mt-2.5">{description}</p>
             </div>
+            <p class="text-gray-400 my-4">{description}</p>
+            <Image
+              class="w-80 m-auto object-cover"
+              src={image}
+              alt={title}
+              loading="lazy"
+            />
           )}
           <AppProse>
             <slot />

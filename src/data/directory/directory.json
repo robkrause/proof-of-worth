@@ -1,23 +1,37 @@
 [
   {
     "id": "nalgene",
-    "title": "Nalgene",
+    "title": "Nalgene Water Bottle",
     "image": "../images/nalgene.jpg",
     "description": "Cheep, lasts forever and free of BPA",
-    "link": "https://nalgene.com/"
+    "link": "https://www.amazon.de/Nalgene-Erwachsene-Enghals-Sustain-aubergine/dp/B08Q85C63V"
   },
   {
     "id": "crocs",
-    "title": "Crocs",
+    "title": "Crocs Shoes",
     "image": "../images/crocs.jpg",
     "description": "Cheep, lasts forever and free of BPA",
-    "link": "https://www.crocs.com/"
+    "link": "https://www.amazon.de/Crocs-Classic-Unisex-Erwachsene-Clogs/dp/B0014C3UEQ"
   },
   {
-    "id": "crocs",
-    "title": "Crocs",
-    "image": "../images/crocs.jpg",
-    "description": "Cheep, lasts forever and free of BPA",
-    "link": "https://www.crocs.com/"
+    "id": "okeeffes",
+    "title": "O'Keeffe's Working Hands Hand Cream",
+    "image": "../images/okeeffes.jpg",
+    "description": "Hand care that heals dry hands without being greasy",
+    "link": "https://www.amazon.de/OKeeffes-Working-Hands-Handcreme-Tube/dp/B07HFFYZ31"
+  },
+  {
+    "id": "meindl",
+    "title": "Meindl Island MFS Active",
+    "image": "../images/meindl.jpg",
+    "description": "Actually waterproof without being sweaty, comfortable and last a long time",
+    "link": "https://www.amazon.de/Meindl-Island-Active-Herren-Sportschuhe/dp/B003IUINYO"
+  },
+  {
+    "id": "lecreuset",
+    "title": "Le Creuset Signature Roaster",
+    "image": "../images/lecreuset.jpg",
+    "description": "",
+    "link": "https://www.amazon.de/Creuset-Gusseisen-Br%C3%A4ter-Signature-ofenrot/dp/B00VA5H8AY"
   }
 ]
