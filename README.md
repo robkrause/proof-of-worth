@@ -6,8 +6,8 @@ https://proof-of-work.netlify.app/
 
 ### How to run
 
-`npm i`
-`npm run dev`
+* `npm i`
+* `npm run dev`
 
 ## Contribute products
 
