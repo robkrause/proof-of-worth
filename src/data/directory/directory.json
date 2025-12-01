@@ -35,10 +35,10 @@
     "link": "https://www.amazon.de/Creuset-Gusseisen-Br%C3%A4ter-Signature-ofenrot/dp/B00VA5H8AY"
   },
   {
-      "id": "leatherman",
-      "title": "Leatherman Wave+",
-      "image": "../images/leatherman.jpg",
-      "description": "The Leatherman Wave+ is the undisputed king of multitools. With 18 tools, one-handed operation, and a 25-year warranty, it redefines durability and value.",
-      "link": "https://www.leatherman.com/products/wave?variant=43009453195357"
-    }
+    "id": "leatherman",
+    "title": "Leatherman Wave+",
+    "image": "../images/leatherman.jpg",
+    "description": "The Leatherman Wave+ is the undisputed king of multitools. With 18 tools, one-handed operation, and a 25-year warranty, it redefines durability and value.",
+    "link": "https://www.amazon.de/Leatherman-Wave-Special-Multi-Tool-Multifunktionswerkzeug/dp/B0CJVCTT8N"
+  }
 ]
