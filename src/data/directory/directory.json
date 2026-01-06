@@ -10,7 +10,7 @@
     "id": "crocs",
     "title": "Crocs Shoes",
     "image": "../images/crocs.jpg",
-    "description": "Cheep, lasts forever and free of BPA",
+    "description": "Those work inside the house but also in nature they last a long time",
     "link": "https://www.amazon.de/Crocs-Classic-Unisex-Erwachsene-Clogs/dp/B0014C3UEQ"
   },
   {
@@ -40,5 +40,54 @@
     "image": "../images/leatherman.jpg",
     "description": "The Leatherman Wave+ is the undisputed king of multitools. With 18 tools, one-handed operation, and a 25-year warranty, it redefines durability and value.",
     "link": "https://www.amazon.de/Leatherman-Wave-Special-Multi-Tool-Multifunktionswerkzeug/dp/B0CJVCTT8N"
+  },
+  {
+    "id": "thinkpad",
+    "title": "Lenovo Thinkpad T480 (and others)",
+    "image": "../images/thinkpad.jpg",
+    "description": "Robust and a keyboards that are fun to use, the T480 is the last one that is really repairable",
+    "link": "https://www.amazon.de/Lenovo-ThinkPad-T480-beleuchtete-General%C3%BCberholt/dp/B0BLT3YRVB"
+  },
+  {
+    "id": "thinkpad",
+    "title": "Lenovo Thinkpad T480 (and others)",
+    "image": "../images/thinkpad.jpg",
+    "description": "Robust and a keyboards that are fun to use, the T480 is the last one that is really repairable",
+    "link": "https://www.amazon.de/Lenovo-ThinkPad-T480-beleuchtete-General%C3%BCberholt/dp/B0BLT3YRVB"
+  },
+  {
+    "id": "steelcase-gesture",
+    "title": "Steelcase Gesture",
+    "image": "../images/steelcase.jpg",
+    "description": "Comfy while healthy for your back, no wear after many years, still you can get replacement parts",
+    "link": "https://www.amazon.de/Steelcase-Gesture-B%C3%BCrostuhl-Bezug-Schwarz/dp/B09582WVP4"
+  },
+  {
+    "id": "iphone",
+    "title": "Apple iPhone",
+    "image": "../images/iphone.jpg",
+    "description": "While it is expensive you will get updates for quite a long time and can get e.g. your battery replaced",
+    "link": "https://www.amazon.de/Apple-iPhone-256-Gruppenselfies-Kratzfestigkeit/dp/B0FQFJVJBQ"
+  },
+  {
+    "id": "dyson",
+    "title": "Dyson V12",
+    "image": "../images/dyson.jpg",
+    "description": "Shows the dust and get's rid of it reliably",
+    "link": "https://www.amazon.de/Dyson-V12-Detect-Slim-Akku-Staubsauger/dp/B0C1PX36JB"
+  },
+  {
+    "id": "lavazza",
+    "title": "Lavazza Coffee Beans",
+    "image": "../images/lavazza.jpg",
+    "description": "Still affordable and tastes great if coffee is not your only hobby",
+    "link": "https://www.amazon.de/Lavazza-Robusta-Kaffeebohnen-Schokoladenaromen-reichhaltiger-vollmundiger/dp/B000FWHWGS"
+  },
+  {
+    "id": "weider",
+    "title": "Weider Protein 80 Plus",
+    "image": "../images/weider.jpg",
+    "description": "Your protein shake has to be tasty so getting strong is not a chore. This on is tasty",
+    "link": "https://www.amazon.de/Weider-Protein-4-Komponenten-Proteingehalt-Cremige/dp/B003AI7NTA"
   }
 ]
