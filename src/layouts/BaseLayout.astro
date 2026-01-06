@@ -2,7 +2,6 @@
 import "@fontsource-variable/gabarito";
 import themeConfig from "@util/themeConfig";
 import "../styles/global.css";
-// import Posthog from "@components/analytics/Posthog.astro";
 import { ClientRouter } from "astro:transitions";
 import { getOGImage } from "@util/getOGImage";
 
@@ -45,10 +44,13 @@ const calculatedTitle = title || siteTitle;
       content={themeConfig.general.seo.description}
     />
     <meta name="twitter:image" content={getOGImage(slug)} />
+    <script
+      data-goatcounter="https://proof-of-worth.goatcounter.com/count"
+      async
+      src="../scripts/goatcounter.js"></script>
     <ClientRouter />
   </head>
   <body class="bg-white dark:bg-gray-900">
     <slot />
-    <!-- <Posthog /> -->
   </body>
 </html>
