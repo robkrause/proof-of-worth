@@ -96,5 +96,12 @@
     "image": "../images/zauberstab.jpg",
     "description": "The ESGE-Zauberstab is an iconic Swiss hand blender, renowned since 1954 for its exceptional durability and efficiency, ensuring reliable high performance, easy handling, and quick cleaning in both professional and home kitchens.",
     "link": "https://www.amazon.de/ESGE-Zauberstab-Multimesser-Schlagscheibe-Gem%C3%BCsemesser-Zerkleinerer/dp/B0G2SJ1JKL"
+  },
+  {
+    "id": "fritzbox",
+    "title": "Fritzbox 7490",
+    "image": "../images/fritzbox.jpg",
+    "description": "This and many other Fritboxes are reliable entrypoints into the internet that are supported for a long time. Just make sure you don't get it with an ISP-branded firware",
+    "link": "https://www.amazon.de/AVM-FRITZ-Box-7490-General%C3%BCberholt/dp/B01LXPJCQN"
   }
 ]
