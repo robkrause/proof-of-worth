@@ -89,5 +89,12 @@
     "image": "../images/ankarsrum.jpg",
     "description": "The Ankarsrum Assistent Original 6230 embodies low time preference through its exceptional 20+ year durability and 7-year warranty, innovative rotating bowl design with a powerful 1500-watt motor for efficient heavy-duty tasks, superior Swedish craftsmanship that minimizes waste and repairs, and outstanding value that amortizes its premium price by replacing multiple lesser appliances, ultimately promoting rational consumption, planetary relief, and civilizational progress in health and sustainability.",
     "link": "https://www.amazon.de/Ankarsrum%C2%AE-Assistent-Original%C2%AE-AKM6230-Kitchen/dp/B07RXT1849"
+  },
+  {
+    "id": "esge-zauberstab",
+    "title": "ESGE-Zauberstab",
+    "image": "../images/zauberstab.jpg",
+    "description": "The ESGE-Zauberstab is an iconic Swiss hand blender, renowned since 1954 for its exceptional durability and efficiency, ensuring reliable high performance, easy handling, and quick cleaning in both professional and home kitchens.",
+    "link": "https://www.amazon.de/ESGE-Zauberstab-Multimesser-Schlagscheibe-Gem%C3%BCsemesser-Zerkleinerer/dp/B0G2SJ1JKL"
   }
 ]
